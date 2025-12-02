@@ -24,6 +24,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2648824924517188836, guid: 79681a4847cf1b14a9b89528f0cd90a2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2717980532909285160, guid: 79681a4847cf1b14a9b89528f0cd90a2, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -124,6 +128,10 @@ PrefabInstance:
       propertyPath: onPlayerEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 4922621941622882116, guid: 79681a4847cf1b14a9b89528f0cd90a2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5329627453281844937, guid: 79681a4847cf1b14a9b89528f0cd90a2, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -133,6 +141,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6527673661983331899, guid: 79681a4847cf1b14a9b89528f0cd90a2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6984371657562820642, guid: 79681a4847cf1b14a9b89528f0cd90a2, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -156,6 +168,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 461781666030175162, guid: 79681a4847cf1b14a9b89528f0cd90a2, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7244164097950562700}
+    - targetCorrespondingSourceObject: {fileID: 7383961699153521426, guid: 79681a4847cf1b14a9b89528f0cd90a2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8288137486168089563}
   m_SourcePrefab: {fileID: 100100000, guid: 79681a4847cf1b14a9b89528f0cd90a2, type: 3}
 --- !u!1 &1611058265994812732 stripped
 GameObject:
@@ -258,3 +273,29 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &8523670344856581524 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7383961699153521426, guid: 79681a4847cf1b14a9b89528f0cd90a2, type: 3}
+  m_PrefabInstance: {fileID: 1167332870328917638}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &8288137486168089563
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8523670344856581524}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f5496873cc3bc374b832118689b6b9d4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
